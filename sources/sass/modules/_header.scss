@@ -1,0 +1,31 @@
+/*========================================================
+                     HEADER  Section
+=========================================================*/
+header {
+  text-align: center;
+  background: #1C211B;
+}
+
+.coverrr{
+  padding-top: 257px;
+  padding-bottom: 276px;
+  background: url(../images/page-1_img01.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  @media (max-width: 767px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/*==================     Brand     ======================*/
+.brand {
+  &_name{
+    overflow: hidden;
+  }
+
+  img + &_name{
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,38 @@
+﻿/*==================     ToTop     ======================*/
+.toTop {
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+    background: #4B5D65;
+    background: rgba(#fff, .2);
+
+    position: fixed;
+    right: 140px;
+    bottom: 60px;
+    margin-right: -21px;
+
+    display: none;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    z-index: 20;
+
+    &:hover {
+        background: #fff;
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .toTop {
+        display: none !important;
+    }
+}
+
+@import "../../include/_mixins";

@@ -1,0 +1,72 @@
+/*==================   Parallax    ======================*/
+
+//--------------------------------------------------------------
+//                      Main styles
+//--------------------------------------------------------------
+.parallax {
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .mobile &, .tablet & {
+    background-position: 50% 0 !important;
+    
+  }
+}
+
+//--------------------------------------------------------------
+//                   Parallax Backgrounds
+//--------------------------------------------------------------
+.parallax1{
+  background-image: url(../images/page-1_img02.jpg);
+  padding: 244px 0 252px;
+
+  &__ins1{
+    padding-bottom: 58px;
+  }
+}
+.parallax2{
+  background-image: url(../images/page-1_img03.jpg);
+  padding: 137px 0 149px;
+}
+
+.parallax3{
+  background-image: url(../images/page-1_img04.jpg);
+  padding: 123px 0 135px;
+
+  h3 + p{
+    margin-top: 2px;
+  }
+}
+
+.parallax4{
+  background-image: url(../images/page-1_img15.jpg);
+  padding: 173px 0 173px;
+}
+
+.parallax5{
+  background-image: url(../images/page-1_img16.jpg);
+  padding: 167px 0 158px;
+
+  h2 + p{
+    margin-top: 32px;
+  }
+}
+
+
+
+//--------------------------------------------------------------
+//                      Responsive Layout
+//--------------------------------------------------------------
+@media (max-width: 767px) {
+  .parallax{
+    background-position: center 0 !important;
+    background-size: cover;
+  }
+
+  .parallax1, .parallax2, .parallax3, .parallax4, .parallax5{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
