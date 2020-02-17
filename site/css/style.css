@@ -640,6 +640,9 @@ hr + *,
 
 * + .row {
   margin-top: 30px;
+  display: inline-block;
+  margin-inline-start: 10px;
+  margin-right: 20px;
 }
 
 * + .off1 {
