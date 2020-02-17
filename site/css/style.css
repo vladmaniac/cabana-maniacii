@@ -584,7 +584,7 @@ header {
 .coverrr {
   padding-top: 257px;
   padding-bottom: 276px;
-  background: url(../images/cover.jpg) no-repeat center center;
+  background: url(../images/page-1_img02.jpg) no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -762,11 +762,11 @@ section:before {
   float: left;
 }
 
-.gallery .thumb1, .gallery .thumb3, .gallery .thumb5, .gallery .thumb6, .gallery .thumb7, .gallery .thumb9 {
+.gallery .thumb1, .gallery .thumb3, .gallery .thumb5, .gallery .thumb6, .gallery .thumb7, .gallery .thumb9, .gallery .thumb12, .gallery .thumb13, .gallery .thumb15 {
   width: 25%;
 }
 
-.gallery .thumb2, .gallery .thumb4, .gallery .thumb8, .gallery .thumb10 {
+.gallery .thumb2, .gallery .thumb4, .gallery .thumb8, .gallery .thumb10, .gallery .thumb11, .gallery .thumb14 {
   width: 12.5%;
 }
 
