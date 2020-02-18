@@ -470,7 +470,7 @@ strong {
 }
 
 .parallax3 {
-  background-image: url(../images/page-1_img04.jpg);
+  background-image: url(../images/page-1_img04.webp);
   padding: 123px 0 135px;
 }
 
@@ -479,7 +479,7 @@ strong {
 }
 
 .parallax4 {
-  background-image: url(../images/fatada_cabana.jpeg);
+  background-image: url(../images/fatada_cabana.webp);
   padding: 173px 0 173px;
 }
 
@@ -584,7 +584,7 @@ header {
 .coverrr {
   padding-top: 257px;
   padding-bottom: 276px;
-  background: url(../images/page-1_img02.jpg) no-repeat center center;
+  background: url(../images/page-1_img02.webp) no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
 }
